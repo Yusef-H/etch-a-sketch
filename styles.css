@@ -1,0 +1,43 @@
+html{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#grid{
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+}
+#grid div{
+    border: 1px solid gray;
+    height: 21px;
+    width: 21px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.control-panel{
+    display: flex;
+    flex-direction: column;
+}
+.control-panel button{
+    margin-right: 10px;
+    height: 45px;
+    width: 60px;
+    background-color: #008CBA;
+    border-radius: 8px;
+    border-style: none;
+    
+    color: white;
+    font-size: 16px;
+}
+button:hover{
+    background-color: #196e8a;
+}
